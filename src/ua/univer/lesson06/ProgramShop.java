@@ -19,5 +19,6 @@ public class ProgramShop {
         Product maxPriceProduct = products.getMaxPriceProduct();
         System.out.println(maxPriceProduct);
         System.out.println(products);
+        SwimPool.swim(new Dog());
     }
 }
