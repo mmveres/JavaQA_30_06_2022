@@ -1,6 +1,18 @@
 package ua.univer.lesson05;
 import java.util.regex.*;
+//
+/*
+*
+*
+* */
+/**
+ * jhjkhkjh
+ */
 public class ProgramRegex {
+    /**
+     * jhlkjkljkljlkjkljlkjlk
+     * @param args
+     */
     public static void main(String[] args) {
         String pattern = "[a-z]+";
         String text = "abNow is the ti5me";
