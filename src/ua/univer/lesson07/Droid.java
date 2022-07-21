@@ -1,6 +1,6 @@
 package ua.univer.lesson07;
 
-public class Droid {
+public abstract class Droid {
     private String name;
     private double energyLevel;
     private double damageLevel;
@@ -37,7 +37,7 @@ public class Droid {
     public void setDamageLevel(double damageLevel) {
         this.damageLevel = damageLevel;
     }
-
+    public abstract void show();
     @Override
     public String toString() {
         return "Droid{" +

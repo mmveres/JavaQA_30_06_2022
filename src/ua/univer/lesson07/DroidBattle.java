@@ -21,6 +21,11 @@ public class DroidBattle extends Droid{
     }
 
     @Override
+    public void show() {
+        System.out.println("BattleDroid");
+    }
+
+    @Override
     public String toString() {
         return "DroidBattle{" +
                 "shootLevel=" + shootLevel +

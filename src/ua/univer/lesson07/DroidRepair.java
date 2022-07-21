@@ -17,6 +17,11 @@ public class DroidRepair extends Droid{
     }
 
     @Override
+    public void show() {
+        System.out.println("DroidRepair");
+    }
+
+    @Override
     public String toString() {
         return "DroidRepair{" +
                 "fixLevel=" + fixLevel +
